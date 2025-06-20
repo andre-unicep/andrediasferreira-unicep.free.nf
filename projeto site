@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://kit.fontawesome.com/bcf462c704.js" crossorigin="anonymous"></script>
+    <title>Salvador - A Capital da Alegria</title>
+
+<script>
+    function menuAction() {
+        var x = document.getElementById("menu-master");
+        if (x.className === "top-nav") {
+            x.className += " responsive";
+        } else {
+            x.className = "top-nav";
+        }
+    }
+    function hideMenu() {
+        document.getElementById("menu-master").className = "top-nav";
+    }
+</script>
+
+</head>
+<body>
+
+    <header>
+        <div class="nav-container">
+            <nav class="top-nav" id="menu-master">
+                <ul>
+                    <li><a href="#cidade" onclick="hideMenu()">A Cidade</a></li>
+                    <li><a href="#atracoes" onclick="hideMenu()">Atrações</a></li>
+                    <li><a href="#historia" onclick="hideMenu()">A História</a></li>
+                    <li><a href="#Religiosidade" onclick="hideMenu()">Religiosidade</a></li>
+                    <li><a href="#eventos" onclick="hideMenu()">Eventos</a></li>
+                    <li><a href="#sobre" onclick="hideMenu()">Sobre</a></li>
+                    <li></li>
+                </ul>
+                <a href="javascript:void(0);" class="icon" onclick="menuAction()"><i class="fa fa-bars"></i></a>
+            </nav>
+        </div>
+        <div class="container-banner">
+           
+            <img src="salvador.jpg" alt="">
+            <div class="text-banner">
+              <div style="position: absolute; top: 190px; left: 20px;">
+  Bem-vindo à Salvador
+</div>
+            </div>
+        </div>
+    </header>
+     
+    <main>
+
+        <section id="cidade">
+            <h1 class="default">Conheça a cidade</h1>           
+            <p>
+                Salvador, a primeira capital do Brasil, é uma cidade vibrante onde a história, a cultura afro-brasileira e a alegria do povo se encontram à beira-mar. Suas ruas de paralelepípedos no Pelourinho contam histórias do passado colonial,
+                 enquanto seus ritmos — como o samba e o axé — embalam dias e noites intensos. As praias paradisíacas, a culinária irresistível com sabores marcantes como o acarajé, e festas populares como o Carnaval e a Lavagem do Bonfim fazem de Salvador um destino que vai muito além do turismo: é uma experiência sensorial e emocional única.
+                 Quem visita, nunca esquece.
+            </p>
+        </section>
+
+        <section id="atracoes">
+            <h1 class="default">Pontos turisticos</h1>
+            <p>Salvador é uma cidade que vale a pena conhecer, conheça os melhores pontos turisticos.</p>
+            <div class="atracoes-conteudo">
+                <div>
+                    <img src="farol-da-barra.jpg" alt="image-farol-da-barra" title="farol-da-barra]">
+                </div>
+                <div>
+                    <ul>
+                        <li>Elevador Lacerda</li>
+                        <li>Museu Náutico da Bahia</li>
+                        <li>Mercado Modelo </li>
+                        <li>Igreja e Convento de São Francisco</li>
+                        <li>Basílica do Senhor do Bonfim </li>
+                        <li>Ponta do Humaitá</li>
+                    
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <section id="historia">
+            <h1 class="default">A História</h1>
+            <div class="historia-conteudo">
+                <div>
+                    <figure>
+                        <img src="elevador-lacerda.jpg"" alt="image-elevador-lacerda" title="Elevador lacerda">
+                        <figcaption>Elevador Lacerda</figcaption>
+                    </figure>
+                    <p>
+                        O Elevador Lacerda é um dos principais cartões-postais de Salvador, Bahia.
+                         Inaugurado em 1873, ele foi o primeiro elevador urbano do mundo e liga a Cidade Alta à Cidade Baixa,
+                          superando um desnível de cerca de 72 metros. Com estrutura em estilo art déco,
+                           o elevador oferece uma vista panorâmica da Baía de Todos-os-Santos e do Mercado Modelo.
+                    </p>
+                </div>
+                <div>
+                    <figure>
+                        <img src="igreja-do-bonfim.jpg" alt="imagem-igreja-do-bonfim.webp" title="Igreja do Bonfim">
+                        <figcaption>Basilica Senhor do Bonfim</figcaption>
+                    </figure>
+                    <p>
+                        A Basílica do Senhor do Bonfim é um dos templos religiosos mais famosos de Salvador e um dos maiores símbolos da fé baiana.
+                         Localizada no bairro do Bonfim, foi construída no século XVIII em estilo neoclássico com elementos barrocos.
+                          É dedicada ao Senhor do Bonfim, uma representação de Jesus Cristo muito venerada pelos católicos e também associada a Oxalá no sincretismo religioso com o candomblé.
+                    </p>
+                </div>
+                <div>
+                    <figure>
+                        <img src="ponta-humaita.jpg"" alt="imagem-ponta-humaita" title="Ponta do Humaitá">
+                        <figcaption>Ponta do Humaitá</figcaption>
+                    </figure>
+                    <p>
+                       Além da paisagem deslumbrante, a Ponta do Humaitá abriga construções históricas como o Forte de Monte Serrat, do século XVII,
+                        e a Igreja de Nossa Senhora de Monte Serrat, que preservam traços da arquitetura colonial. É um ponto de encontro para moradores e turistas em busca de tranquilidade,
+                         beleza natural e contato com a história da cidade.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <section id="Religiosidade">
+            <div class="Religiosidade">
+                <h1 class="default">Religiosidade</h1>
+                <p><strong>A cidade tem uma forte tradição religiosa, em especial dos praticantes do catolicismo e do candomblé. O sincretismo religioso é uma marca da população local. </strong></p>
+                <p><i class="fa fa-check"></i>
+                    Catedral Basílica Primacial de Salvador, Considerada a “igreja mãe” de Salvador, a Catedral Basílica abriga os principais atos litúrgicos do estado.
+                </p>
+                <p><i class="fa fa-check"></i>
+                    Igreja de Nossa Senhora do Rosário dos Pretos, Tem como diferencial a sua identidade religiosa. Foi construída por negros escravizados de fé cristã, que não tinham um espaço para a celebração das suas crenças.                </p>
+                <p><i class="fa fa-check"></i>
+                    Igreja da Ordem Terceira de São Francisco, É uma das igrejas mais belas de Salvador. A fachada é de estilo barroco, construída sob técnicas que transmitem sensações visuais de profundidade e sombra. A estrutura interna conta com 400 quilos de ouro. Fundação: 1703
+                </p>
+                <p><i class="fa fa-check"></i>
+                    Igreja Nossa Senhora do Pilar e Santa Luzia, Construída em estilo rococó, com decorações rochosas e pinturas suaves, a igreja tem como maior atrativo a fonte de Santa Luzia. Milhares de fiéis visitam o templo na esperança de resolverem seus os problemas visuais na fonte dedicada à santa protetora dos olhos.
+                </p>
+            </div>
+        </section>
+
+        <section id="eventos">
+            <h1 class="default">Eventos</h1>
+            <div class="eventos-conteudo">
+                <div>
+                    <figure>
+                        <img src="festa-santa-barbara.jpg"" alt="imagem-festa-santa-barbara" title="festa de santa barbara">
+                        <figcaption>
+                            <span class="evento-titulo">Festa de Santa Bárbara</span>
+                             O dia 04 de dezembro é uma data simbólica para que os devotos se reúnam e rendam homenagens.</figcaption>
+                    </figure>
+                </div>
+                <div>
+                    <figure>
+                        <img src="Festa-de-Conceicao-da-Praia.jpg" alt="imagem-festa-conceicao" title="festa conceicao">
+                        <figcaption>
+                            <span class="evento-titulo">Festa de Conceição da Praia </span>
+                            Festa Típica Popular em homenagem à Padroeira Excelsa e Única do Estado da Bahia, sendo a festa religiosa mais antiga do Brasil.
+                        </figcaption>
+                    </figure>
+                </div>
+                <div>
+                    <figure>
+                        <img src="festa-iemanja.jpg" alt="imagem-festa-iemanja" title="festa de iemanja">
+                        <figcaption>
+                            <span class="evento-titulo">Festa de Iemanjá </span>
+                        ´É uma das celebrações religiosas mais tradicionais do Brasil,
+                         É uma homenagem à orixá Iemanjá, considerada a rainha do mar nas religiões de matriz africana,
+                          como o Candomblé e a Umbanda.
+                        </figcaption>
+                    </figure>
+                </div>
+                <div>
+                    <figure>
+                        <img src="caminhada-azoany.jpg" alt="imagem-caminhada-azoany" title="caminhada azoany">
+                        <figcaption>
+                            <span class="evento-titulo">Caminhada Azoany</span>
+                            A Caminhada Azoany sai do Pelourinho em direção ao santuário, em São Lázaro, na Federação.
+                        </figcaption>
+                    </figure>
+                </div>
+            </div>
+        </section>
+
+        <section id="sobre">
+            <div class="sobre-conteudo">
+                <h1 class="titulo-sobre">Sobre</h1>
+                <p>Conteúdo desenvolvido por Aluno André Dias Ferreira Junior</p>
+            </div>
+        </section>
+
+    </main>
+
+    <footer>
+        2025 &copy; - Todos os direitos reservados
+    </footer>
+
+</body>
